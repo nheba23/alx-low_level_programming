@@ -5,15 +5,14 @@
  */
 int main(void)
 {
-	char alp[26];
-	int i;
+	char lc;
 
-	for (i = 0; i <= 26; i++)
+	for lc = 'a'; lc <= 'z'; lc++)
 
 		;
 
 	{
-		putchar(alp[i]);
+		putchar(lc);
 	}
 	putchar('\n');
 	return (0);
