@@ -5,9 +5,9 @@
  */
 int main(void)
 {
-	char c = "abcdefghijklmnopqrstuvwxyz";
+	char *c = "abcdefghijklmnopqrstuvwxyz";
 
-	char d = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char *d = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 	c = 'a';
 	d = 'A';
