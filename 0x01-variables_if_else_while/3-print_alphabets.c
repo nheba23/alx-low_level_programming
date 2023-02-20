@@ -5,23 +5,14 @@
  */
 int main(void)
 {
-	char c;
-
-	char d;
-
-	c = 'a';
-	d = 'A';
+	int n = 9;
 
 	while
-		(c <= 'z') {
-			putchar(c);
-			c++;
-		}
-	while
-		(c <= 'Z') {
-			putchar(c);
-			d++;
-		}
+		(n <= 122)
+	{
+			putchar(n);
+			n++;
+	}
 	putchar('\n');
 	return (0);
 }
