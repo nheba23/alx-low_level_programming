@@ -15,6 +15,7 @@ void times_table(void)
 	if (z > 0)
 	{
 	u = z % 10;
+	d = (z - u) / 10;
 	_putchar(44);
 	_putchar(32);
 	_putchar(d + '0');
