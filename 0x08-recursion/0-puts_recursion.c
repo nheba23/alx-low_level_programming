@@ -2,7 +2,7 @@
 /**
  * _puts_recursion - Function like puts()
  * @s: input
- * Return: Always 0 (success)
+ * Return: Always 0
  */
 void _puts_recursion(char *s)
 {
